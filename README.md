@@ -1,5 +1,5 @@
 
-# Exponential Distribution - Lab
+# Exponential Distributions - Lab
 
 ## Introduction
 
