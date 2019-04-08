@@ -64,7 +64,7 @@ The average student takes 44 minutes to complete a test.  What is the probabilit
 
 
 ```python
-1 - exp_cdf(44, 38) # Expected Output: 0.00958241148834099
+1 - exp_cdf(44, 38) # Expected Output: 0.4216261054870035
 ```
 
 
