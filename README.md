@@ -13,7 +13,7 @@ You will be able to:
 
 ## Getting Started
 
-Before we can begin answering questions, it will probably be helpful to write some python functions to quickly calculate the **_PDF_** and **_CDF_** for us.  
+Before we can begin answering questions, it will probably be helpful to write some python functions to quickly calculate the **PDF** and **CDF** for us.  
 
 For reference, here are the functions we'll want to implement.
 
@@ -60,17 +60,17 @@ exp_cdf(22, 30) # Expected Output: 0.7442708400868994
 
 ## Question 2
 
-The average student takes 44 minutes to complete a test.  What is the probability that the fastest student in the class will take 38 minutes to complete the test?
+The average student takes 44 minutes to complete a test.  What is the probability that the fastest student in the class will take more than 38 minutes to complete the test?
 
 
 ```python
-exp_pdf(44, 38) # Expected Output: 0.00958241148834099
+1 - exp_cdf(44, 38) # Expected Output: 0.00958241148834099
 ```
 
 
 
 
-    0.00958241148834099
+    0.4216261054870035
 
 
 
@@ -92,18 +92,28 @@ exp_cdf(6, 8) # Expected Output: 0.7364028618842733
 
 ## Question 4
 
-The average interval that calls come in at a call center is 8 seconds. What is the probability that the nexts call will happen in 7 seconds?
+The average interval that calls come in at a call center is 8 seconds. Plot the probability density function for a call happening at each second between 0 and 30 seconds (you can look at intervals of 0.5 seconds only.
+
+
+What is the probability that the nexts call will happen in 7 seconds?
 
 
 ```python
-exp_pdf(8, 7) # Expected Output: 0.05210775245981355
+# Create a list to contain the pdf-values
+seconds = np.linspace(0,30, num = 61)
+out= []
+for i in seconds:
+    out.append(exp_pdf(8,i))
+
+    
+# Create the plot
+import matplotlib.pyplot as plt
+plt.plot(seconds, out)
+plt.title("PDF with $\mu = 8$");
 ```
 
 
-
-
-    0.05210775245981355
-
+![png](index_files/index_9_0.png)
 
 
 ## Question 5
@@ -135,4 +145,4 @@ print("Probability of earthquake between 5 - 8 weeks: {}%".format((upper_bound -
 
 ## Summary
 
-In this lesson, we solved some real-world problems using the PDF and CDF for the Exponential Distribution!
+In this lesson, you solved some real-world problems using the PDF and CDF for the Exponential Distribution!
