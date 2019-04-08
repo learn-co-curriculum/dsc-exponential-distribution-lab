@@ -57,7 +57,7 @@ The average student takes 44 minutes to complete a test.  What is the probabilit
 
 ```python
 
-# Expected Output: 0.00958241148834099
+# Expected Output: 0.4216261054870035
 ```
 
 ## Question 3
@@ -76,8 +76,12 @@ The average interval that calls come in at a call center is 8 seconds. What is t
 
 
 ```python
+# Create a list to contain the pdf-values
 
-# Expected Output: 0.05210775245981355
+    
+# Create the plot
+
+
 ```
 
 ## Question 5
