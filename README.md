@@ -75,7 +75,7 @@ The first customer of the day walks into a store 6 minutes after the store opens
 The average interval that calls come in at a call center is 8 seconds. Plot the probability density function for a call happening at each second between 0 and 30 seconds (you can look at intervals of 0.5 seconds only.
 
 
-What is the probability that the nexts call will happen in 7 seconds?
+What is the probability that the next call will happen in 7 seconds?
 
 
 ```python
