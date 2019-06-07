@@ -13,7 +13,7 @@ You will be able to:
 
 ## Getting Started
 
-Before we can begin answering questions, it will probably be helpful to write some python functions to quickly calculate the **_PDF_** and **_CDF_** for us.  
+Before we can begin answering questions, it will probably be helpful to write some python functions to quickly calculate the **PDF** and **CDF** for us.  
 
 For reference, here are the functions we'll want to implement.
 
@@ -21,7 +21,7 @@ For reference, here are the functions we'll want to implement.
 
 $$PDF(x) = \lambda e^{- \lambda x}$$
 
-###  Cumulative Density Function
+###   Cumulative Density Function
 
 $$CDF(x) = 1 - e^{- \lambda x}$$
 
@@ -52,7 +52,7 @@ Steven is picking up a friend at the airport, and their plane is late. The late 
 
 ## Question 2
 
-The average student takes 44 minutes to complete a test.  What is the probability that the fastest student in the class will take 38 minutes to complete the test?
+The average student takes 44 minutes to complete a test.  What is the probability that the fastest student in the class will take more than 38 minutes to complete the test?
 
 
 ```python
@@ -72,7 +72,10 @@ The first customer of the day walks into a store 6 minutes after the store opens
 
 ## Question 4
 
-The average interval that calls come in at a call center is 8 seconds. What is the probability that the nexts call will happen in 7 seconds?
+The average interval that calls come in at a call center is 8 seconds. Plot the probability density function for a call happening at each second between 0 and 30 seconds (you can look at intervals of 0.5 seconds only.
+
+
+What is the probability that the nexts call will happen in 7 seconds?
 
 
 ```python
@@ -108,4 +111,4 @@ print("Probability of earthquake between 5 - 8 weeks: {}%".format((upper_bound -
 
 ## Summary
 
-In this lesson, we solved some real-world problems using the PDF and CDF for the Exponential Distribution!
+In this lesson, you solved some real-world problems using the PDF and CDF for the Exponential Distribution!
