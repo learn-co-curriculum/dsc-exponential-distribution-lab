@@ -60,8 +60,7 @@ Steven is picking up a friend at the airport, and their plane is late. The late 
 
 
 ```python
-
- # Expected Output: 0.7442708400868994
+# Expected Output: 0.7442708400868994
 ```
 
 
@@ -83,7 +82,6 @@ The average student takes 44 minutes to complete a test.  What is the probabilit
 
 
 ```python
-
 # Expected Output: 0.4216261054870035
 ```
 
@@ -106,7 +104,6 @@ The first customer of the day walks into a store 6 minutes after the store opens
 
 
 ```python
-
 # Expected Output: 0.7364028618842733
 ```
 
