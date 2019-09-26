@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this lesson, we'll make use of newfound knowledge of the **_Exponential Distribution_** to answer some real-world questions!
+In this lesson, we'll make use of our newfound knowledge of the **_Exponential Distribution_** to answer some real-world questions!
 
 ## Objectives
 
@@ -13,7 +13,7 @@ You will be able to:
 
 ## Getting Started
 
-Before we can begin answering questions, it will probably be helpful to write some python functions to quickly calculate the **PDF** and **CDF** for us.  
+Before we can begin answering questions, it will probably be helpful to write some Python functions to quickly calculate the **PDF** and **CDF** for us.  
 
 For reference, here are the functions we'll want to implement.
 
@@ -44,7 +44,7 @@ Great! Now, lets answer some questions.
 
 ## Question 1 
 
-Steven is picking up a friend at the airport, and their plane is late. The late flight is 22 minutes behind schedule.  What is the probability that Steven will wait 30 minutes or less for his friend's flight to land?
+Steven is picking up a friend at the airport and their plane is late. The late flight is 22 minutes behind schedule.  What is the probability that Steven will wait 30 minutes or less for his friend's flight to land?
 
 
 ```python
