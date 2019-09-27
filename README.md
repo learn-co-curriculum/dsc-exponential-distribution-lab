@@ -9,7 +9,7 @@ In this lesson, we'll make use of our newfound knowledge of the **_Exponential D
 
 You will be able to:
 
-* Understand and explain the Exponential Distribution and its use cases.
+- Understand and explain the Exponential Distribution and its use cases.
 
 ## Getting Started
 
