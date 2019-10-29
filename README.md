@@ -9,7 +9,9 @@ In this lesson, we'll make use of our newfound knowledge of the **_Exponential D
 
 You will be able to:
 
-- Understand and explain the Exponential Distribution and its use cases.
+* Identify use cases for the exponential distribution
+* Calculate the probability of events that follow an exponential distribution
+
 
 ## Getting Started
 
